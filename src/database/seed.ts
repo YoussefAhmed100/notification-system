@@ -1,7 +1,7 @@
 import { drizzle } from 'drizzle-orm/node-postgres';
 import { Pool } from 'pg';
 import * as bcrypt from 'bcrypt';
-import { users } from '../users/schema';
+import { users } from '../users/schema/schema';
 
 type NewUser = typeof users.$inferInsert;
 
