@@ -9,7 +9,7 @@ import { Inject } from '@nestjs/common';
 import { NodePgDatabase } from 'drizzle-orm/node-postgres';
 
 import { DATABASE_CONNECTION } from '../database/database-connection';
-import * as schema from '../users/schema';
+import * as schema from '../users/schema/schema';
 
 import { RegisterDto } from './dto/register.dto';
 import { LoginDto } from './dto/login.dto';
